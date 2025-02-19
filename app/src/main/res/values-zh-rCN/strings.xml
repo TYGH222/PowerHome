@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App name</string>
+    <string name="identifiez_vous">登入页面</string>
+    <string name="ou">或者</string>
+    <string name="mot_de_passe">密码</string>
+    <string name="connectez_vous">登入</string>
+    <string name="mot_de_passe_oublie">忘记密码 ?</string>
+    <string name="continuer_avec_facebook">使用Facebook登入</string>
+    <string name="nouveau_sur_jumia">新用户 ?</string>
+    <string name="ceee_un_compte">创建账号</string>
+    <string name="creer_un_nouveau_compte">创建一个新账号</string>
+    <string name="nom">姓</string>
+    <string name="prenom">名</string>
+    <string name="valider">确认</string>
+    <string name="connectez_vous_maj">确定登入</string>
+    <string name="mobile">电话</string>
+</resources>

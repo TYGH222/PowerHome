@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nombre de la aplicación</string>
+    <string name="identifiez_vous">Identifícate</string>
+    <string name="ou">O</string>
+    <string name="mot_de_passe">Contraseña</string>
+    <string name="connectez_vous">Conéctate</string>
+    <string name="mot_de_passe_oublie">¿OLVIDASTE TU CONTRASEÑA?</string>
+    <string name="continuer_avec_facebook">Continuar con Facebook</string>
+    <string name="nouveau_sur_jumia">¿Nuevo en Jumia?</string>
+    <string name="ceee_un_compte">CREAR UNA CUENTA</string>
+    <string name="creer_un_nouveau_compte">Crear una nueva cuenta</string>
+    <string name="nom">Apellido</string>
+    <string name="prenom">Nombre</string>
+    <string name="valider">Validar</string>
+    <string name="connectez_vous_maj">CONECTATE</string>
+    <string name="mobile">movible</string>
+</resources>

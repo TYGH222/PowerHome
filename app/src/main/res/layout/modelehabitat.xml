@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="@android:color/white"
+
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bordurehabitat"
+        android:padding="15dp"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="20dp"
+            android:layout_height="0dp"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="@+id/NombreEquipement"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/NombreEquipement"
+            android:layout_marginStart="130dp"
+            app:srcCompat="@mipmap/machine_a_laver" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="20dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/image1"
+            app:layout_constraintStart_toEndOf="@+id/image1"
+            app:layout_constraintTop_toTopOf="@+id/image1"
+            app:srcCompat="@mipmap/aspirateur"
+            android:scaleType="centerInside"
+            android:layout_marginStart="5dp"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="20dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/image2"
+            app:layout_constraintStart_toEndOf="@+id/image2"
+            app:layout_constraintTop_toTopOf="@+id/image2"
+            app:srcCompat="@mipmap/climatiseur"
+            android:scaleType="centerInside"
+            android:layout_marginStart="5dp"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="20dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/image3"
+            app:layout_constraintStart_toEndOf="@+id/image3"
+            app:layout_constraintTop_toTopOf="@+id/image3"
+            app:srcCompat="@mipmap/fer_a_repasser"
+            android:layout_marginStart="5dp"
+            android:scaleType="centerInside"
+            />
+
+        <TextView
+            android:id="@+id/NombreEquipement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NombreEquipement"
+            android:layout_marginTop="15dp"
+            android:textSize="17dp"
+            android:textColor="@color/couleurTextGris"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/Nom_haibitat"
+            app:layout_constraintTop_toBottomOf="@+id/Nom_haibitat" />
+
+
+
+        <TextView
+            android:id="@+id/Nom_haibitat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Nom_haibitat"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="3dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/bordureetage"
+
+
+            >
+
+            <TextView
+                android:id="@+id/TextEtage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="ETAGE"
+                android:textSize="16dp"
+                android:textStyle="bold"
+
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+
+                />
+
+            <TextView
+                android:id="@+id/NumeroEtage"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="#CF06992E"
+                android:gravity="center"
+
+                android:text="1"
+                android:textColor="@color/white"
+                android:layout_marginStart="10dp"
+                android:textSize="17dp"
+                android:textStyle="bold"
+
+                app:layout_constraintBottom_toBottomOf="@id/TextEtage"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintStart_toEndOf="@id/TextEtage"
+                app:layout_constraintTop_toTopOf="@+id/TextEtage"
+
+                />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

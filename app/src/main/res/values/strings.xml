@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">App name</string>
+    <string name="e_mail" translatable="false">E-mail</string>
+    <string name="identifiez_vous">Log in</string>
+    <string name="ou">OR</string>
+    <string name="mot_de_passe">Password</string>
+    <string name="connectez_vous">Connect</string>
+    <string name="mot_de_passe_oublie">FORGOT PASSWORD ?</string>
+    <string name="continuer_avec_facebook">Continue with Facebook</string>
+    <string name="nouveau_sur_jumia">New to Jumia ?</string>
+    <string name="ceee_un_compte">CREATE AN ACCOUNT</string>
+    <string name="creer_un_nouveau_compte">Create an new account</string>
+    <string name="nom">Last name</string>
+    <string name="prenom">Fisrt name</string>
+    <string name="valider">Confirm</string>
+    <string name="connectez_vous_maj">Connect</string>
+    <string name="mobile">Mobile</string>
+
+
+</resources>
