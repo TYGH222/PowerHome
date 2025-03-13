@@ -15,6 +15,10 @@
     <string name="valider">Confirm</string>
     <string name="connectez_vous_maj">Connect</string>
     <string name="mobile">Mobile</string>
+    <string name="open_navigation_view" translatable="false"> open</string>
+    <string name="close_navigation_view" translatable="false">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
